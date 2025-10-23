@@ -1,0 +1,32 @@
+:root {
+  /* CSS HEX */
+  --taupe-gray: #9a8f97;
+  --silver:     #c3baba;
+  --platinum:   #e9e3e6;
+  --silver-2:   #b2b2b2;
+  --dim-gray:   #736f72;
+
+  /* colors: scene */
+  --scene-bg: var(--platinum);
+
+  /* colors: square */
+  --square-bg: var(--dim-gray);
+  --square-bg-dot: var(--platinum);
+  --square-bg-delim: var(--platinum);
+  --square-border-dot: var(--silver-2);
+  --square-border-delim: var(--silver-2);
+
+  /* sizes: square */
+  --square-size-short: 3rem;
+  --square-size-long: calc(var(--square-size-short) * 2);
+  --square-size-delim: calc(var(--square-size-short) / 10);
+  --square-size-dot: calc(var(--square-size-short) / 10);
+
+  /* spacers: scene */
+  --scene-spacer-short: var(--square-size-delim );
+  --scene-spacer-long: calc(var(--square-size-delim ) * 2);
+
+  /* spacers: square */
+  --square-spacer-short: 0.5rem;
+  --square-spacer-long: 1rem;
+}
