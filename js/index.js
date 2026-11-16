@@ -1,4 +1,5 @@
-(function() {
+// Layout-dependent startup must wait for imported stylesheets too.
+window.addEventListener('load', function() {
   const { Scene, Square, rndInt } = window.__lib;
   const scene = new Scene();
 
@@ -29,4 +30,4 @@
 
   processRefill();
   processReinit();
-})();
+}, { once: true });
